@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="libs/bootstrap-4.1.1-dist/css/bootstrap.min.css" />
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-5">
+					<div class="logo">
+						<a href="http://passcreate.ru"><img src="img/logo.png"></a>
+					</div>
+				</div>
+				<div class="col">
+					<div class="name">
+						<p>PassCreate</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<form action="index.html">	
+						<input class="buttons" type="submit" name="pass" value="Генератор паролей" id="pass">
+					</form>
+				</div>
+				<div class="col">
+					<form action="random_number.html" method="GET">
+						<input class="buttons" type="submit" name="pass" value="Случайное число" id="num">
+					</form>
+				</div>
+				<div class="col">
+					<form action="calculator_ip.html">
+						<input class="buttons" type="submit" name="pass" value="Калькулятор IP адресов" id="calc_ip">
+					</form>
+				</div>
+				<div class="col">
+					<form action="calculator.html">
+						<input class="buttons" type="submit" name="pass" value="Калькулятор" id="calc">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="options">
+				<div class="pass_length">Длина пароля:
+					<input type="text" placeholder="Введите число от 4 до 20" value="" id="pass_length">
+				</div>
+				<div class="numbers">Использовать цифры 0-9:
+					<input type="checkbox" id="numbers">
+				</div>
+				<div class="uppercase">Использовать прописные буквы A-Z:
+					<input type="checkbox" id="uppercase">
+				</div>
+				<div class="lowercase">Использовать строчные буквы a-z:
+					<input type="checkbox" id="lowercase">
+				</div>
+				<div class="special">Использовать спец. символы @, #, $, %, ^, & и др.:
+					<input type="checkbox" id="special">
+				</div>
+				<div class="gen_btn">
+					<input type="button" value="Сгенерировать" id="result_btn">
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="pass">
+		<div class="container">
+			<div class="you_pass">Ваш пароль: 
+				<input type="text" placeholder="" id="password">
+			</div>	
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="container">
+			<div class="copyright">
+				© 2018 passcreate.ru - Онлайн генератор паролей
+			</div>
+		</div>
+	</div>
+	
+
+
+
+
+
+	<script src="libs/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+	<script src="js/genpass.js"></script>
+</body>
+</html>

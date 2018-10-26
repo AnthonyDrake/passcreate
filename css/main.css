@@ -1,0 +1,369 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid
+}
+
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid
+}
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-image: url(../img/bg.png);
+}
+
+.header {
+	padding: 30px;
+}
+
+.logo {	
+	vertical-align: middle;	
+}
+
+.logo img {
+	display: inline-block;
+	width: 29%;
+	height:30%;
+	float: right;
+	margin: 0 95px;
+}
+
+.name {
+	font-size: 100px;
+	font-family: "NautilusPompiliusRegular";
+	text-align: left;
+	color: #303033;
+	margin: 10px 0 0 -81px;	
+}
+
+.buttons {
+	height: 40px;
+	width: 200px;
+ 	display: block;
+  	margin: 20px auto;
+  	vertical-align: top;
+  	padding: 6px 20px;
+  	font-size: 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	color: #E8E8E8;
+    background-color: #000;
+    border: 1px solid;
+    border-color: #303033;
+    border-radius: 7px;
+    background-image: -webkit-linear-gradient(top, #0B9D22, #073C0F);
+    background-image: -moz-linear-gradient(top, #0B9D22, #073C0F);
+    background-image: -o-linear-gradient(top, #0B9D22, #073C0F);
+    background-image: linear-gradient(to bottom, #0B9D22, #073C0F);
+    
+}
+
+.buttons:hover {
+    background-color: #ccc;
+    background-image: -webkit-linear-gradient(top, #0B9D22, #073C0F);
+    background-image: -moz-linear-gradient(top, #0B9D22, #073C0F);
+    background-image: -o-linear-gradient(top, #0B9D22, #073C0F);
+    background-image: linear-gradient(to bottom, #0B9D22, #073C0F);
+    -webkit-box-shadow: inset 0 4px rgba(255, 255, 255, 0.05), 0 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 4px rgba(255, 255, 255, 0.05), 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.buttons:active, .buttons.active {
+    border-color: #1c1c1c #202020 #222;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+#pass {
+	float: left;
+}
+
+#num {
+	margin-right: 35px;
+}
+
+#calc_ip {
+	margin-left: 35px;
+}
+
+#calc {
+	float: right;
+}
+
+.options {
+	width: 400px;
+	margin: 90px auto;
+	
+}
+
+#pass_length {
+	width: 278px;
+}
+
+.gen_btn {
+	width: 150px;
+	margin: 30px auto;
+}
+
+#result_btn {
+    height: 40px;
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    vertical-align: top;
+    padding: 6px 20px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #E8E8E8;
+    background-color: #000;
+    border: 1px solid;
+    border-color: #303033;
+    border-radius: 7px;
+    background-image: -webkit-linear-gradient(top, #E21212,  #8B0404);
+    background-image: -moz-linear-gradient(top, #E21212,  #8B0404);
+    background-image: -o-linear-gradient(top, #E21212,  #8B0404);
+    background-image: linear-gradient(to bottom, #E21212,  #8B0404);
+    
+}
+
+#result_btn:hover {
+    background-color: #ccc;
+    background-image: -webkit-linear-gradient(top, #E21212,  #8B0404);
+    background-image: -moz-linear-gradient(top, #E21212,  #8B0404);
+    background-image: -o-linear-gradient(top, #E21212,  #8B0404);
+    background-image: linear-gradient(to bottom, #E21212,  #8B0404);
+    -webkit-box-shadow: inset 0 4px rgba(255, 255, 255, 0.05), 0 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 4px rgba(255, 255, 255, 0.05), 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#result_btn:active, #result_btn.active {
+    border-color: #1c1c1c #202020 #222;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+.you_pass {
+	width: 400px;
+	margin: 0px auto;
+}
+
+#password {
+	width: 296px;
+}
+
+.bottom {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.copyright {
+	margin-top: 190px;
+	font-size: 14px;
+}
+
+.you_number {
+	text-align: center;
+	margin: 60px;
+	font-size: 140px;
+	position: relative;
+    font-weight: bold;
+}
+
+.options_num {
+	width: 500px;
+	margin: -12px auto;
+}
+
+.num_range input {
+	width: 120px;
+	
+}
+
+.options_ip {
+	width: 400px;
+	margin: 90px auto;
+}
+
+.ip {
+	margin-bottom: 10px;
+}
+
+.mask select{
+	width: 294px;
+	padding: 2px;
+}
+
+#ip_table {
+
+}
+
+table {
+    width: 60%;
+    text-align: center;
+
+}
+
+table td{
+    width: 30%;
+    border: 2px solid #303033;
+
+}
+
+.copyright_ip {
+	margin-top: 367px;
+	font-size: 14px;
+}
+
+.calc {
+	height: 280px;
+	border-radius: 5px;
+	width: 400px;
+	margin: 90px auto;
+	background-color: #303033;
+}
+
+.calc_input {
+	border-radius: 5px;
+	border: 1px solid #c0c0c0;
+	box-shadow: none;
+	width: 380px;
+	padding: 10px;
+	margin: 15px 10px 20px 10px;
+	text-align: right;
+}
+
+.buttons_calc {
+	margin: 0px 10px 30px 10px;
+}
+
+.buttons_calc button {
+	width: 72px;
+	margin: 6px auto;
+	padding: 5px;
+	border-radius: 4px;
+	border: 1px solid #c0c0c0;
+	color: #000;
+    background-color: #000;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #303033;
+	background-image: -webkit-linear-gradient(top, #E3E3E3,  #A8A8A8);
+    background-image: -moz-linear-gradient( #E3E3E3,  #A8A8A8);
+    background-image: -o-linear-gradient(top, #E3E3E3 ,  #A8A8A8);
+    background-image: linear-gradient(to bottom,  #E3E3E3, #A8A8A8);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), 0 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.buttons_calc button:hover {
+    background-color: #ccc;
+    background-image: -webkit-linear-gradient(top, #fff, #A8A8A8);
+    background-image: -moz-linear-gradient(top, #fff, #A8A8A8);
+    background-image: -o-linear-gradient(top, #fff, #A8A8A8);
+    background-image: linear-gradient(to bottom, #fff, #A8A8A8);
+}
+
+.buttons_calc button:active, .buttons_calc button.active {
+    background-color: #b42f32;
+    border-color: #1c1c1c #202020 #222;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+.buttons_calc .del{
+	width: 72px;
+	margin: 6px auto;
+	padding: 5px;
+	border-radius: 4px;
+	color: #000;
+    background-color: #000;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #303033;
+	background-image: -webkit-linear-gradient(top, #E21212,  #8B0404);
+    background-image: -moz-linear-gradient( #E21212,  #8B0404);
+    background-image: -o-linear-gradient(top, #E21212 ,  #8B0404);
+    background-image: linear-gradient(to bottom,  #E21212, #8B0404);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), 0 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.buttons_calc .del:hover {
+    background-color: #ccc;
+    background-image: -webkit-linear-gradient(top, #FF9999, #8B0404);
+    background-image: -moz-linear-gradient(top, #FF9999, #8B0404);
+    background-image: -o-linear-gradient(top, #FF9999, #8B0404);
+    background-image: linear-gradient(to bottom, #FF9999, #8B0404);
+}
+
+.buttons_calc .del:active, .buttons_calc .del.active {
+    background-color: #b42f32;
+    border-color: #1c1c1c #202020 #222;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+.buttons_calc .result{
+	height: 132px;
+    display: inline-block;
+   	float: right;
+   	margin: -42px 2px 0 0;
+   	width: 72px;
+   	text-decoration: none;
+  	color: #E8E8E8;
+    background-color: #000;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #303033;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, #0B9D22, #073C0F);
+    background-image: -moz-linear-gradient(top, #0B9D22, #073C0F);
+    background-image: -o-linear-gradient(top, #0B9D22, #073C0F);
+    background-image: linear-gradient(to bottom, #0B9D22, #073C0F);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), 0 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), 0px 2px 1px rgba(0, 0, 0, 0.5);
+   
+}
+
+.buttons_calc .result:hover {
+    background-color: #ccc;
+    background-image: -webkit-linear-gradient(top, #6CE483, #073C0F);
+    background-image: -moz-linear-gradient(top, #6CE483, #073C0F);
+    background-image: -o-linear-gradient(top, #6CE483, #073C0F);
+    background-image: linear-gradient(to bottom, #6CE483, #073C0F);
+}
+
+.buttons_calc .result:active, .buttons_calc .result.active {
+    background-color: #b42f32;
+    border-color: #1c1c1c #202020 #222;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+.copyright_calc {
+	margin-top: 226px;
+	font-size: 14px;
+}

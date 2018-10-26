@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="libs/bootstrap-4.1.1-dist/css/bootstrap.min.css" />
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-5">
+					<div class="logo">
+						<a href="#"><img src="img/logo.png"></a>
+					</div>
+				</div>
+				<div class="col">
+					<div class="name">
+						<p>PassCreate</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<form action="index.html">	
+						<input class="buttons" type="submit" name="pass" value="Генератор паролей" id="pass">
+					</form>
+				</div>
+				<div class="col">
+					<form action="random_number.html" method="GET">
+						<input class="buttons" type="submit" name="pass" value="Случайное число" id="num">
+					</form>
+				</div>
+				<div class="col">
+					<form action="calculator_ip.html">
+						<input class="buttons" type="submit" name="pass" value="Калькулятор IP адресов" id="calc_ip">
+					</form>
+				</div>
+				<div class="col">
+					<form action="calculator.html">
+						<input class="buttons" type="submit" name="pass" value="Калькулятор" id="calc">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="options_ip">
+				<div class="ip">IP-адрес:
+					<input type="text" placeholder="192.168.0.1" id="ip">
+				</div>
+				<div class="mask">Маска:
+					<select name="mask" id="mask">
+						<option value="0">0 - 0.0.0.0</option>
+						<option value="1">1 - 128.0.0.0</option>
+						<option value="2">2 - 192.0.0.0</option>
+						<option value="3">3 - 224.0.0.0</option>
+						<option value="4">4 - 240.0.0.0</option>
+						<option value="5">5 - 248.0.0.0</option>
+						<option value="6">6 - 252.0.0.0</option>
+						<option value="7">7 - 254.0.0.0</option>
+						<option value="8">8 - 255.0.0.0</option>
+						<option value="9">9 - 255.128.0.0</option>
+						<option value="10">10 - 255.192.0.0</option>
+						<option value="11">11 - 255.224.0.0</option>
+						<option value="12">12 - 255.240.0.0</option>
+						<option value="13">13 - 255.248.0.0</option>
+						<option value="14">14 - 255.252.0.0</option>
+						<option value="15">15 - 255.254.0.0</option>
+						<option value="16">16 - 255.255.0.0</option>
+						<option value="17">17 - 255.255.128.0</option>
+						<option value="18">18 - 255.255.192.0</option>
+						<option value="19">19 - 255.255.224.0</option>
+						<option value="20">20 - 255.255.240.0</option>
+						<option value="21">21 - 255.255.248.0</option>
+						<option value="22">22 - 255.255.252.0</option>
+						<option value="23">23 - 255.255.254.0</option>
+						<option value="24">24 - 255.255.255.0</option>
+						<option value="25">25 - 255.255.255.128</option>
+						<option value="26">26 - 255.255.255.192</option>
+						<option value="27">27 - 255.255.255.224</option>
+						<option value="28">28 - 255.255.255.240</option>
+						<option value="29">29 - 255.255.255.248</option>
+						<option value="30">30 - 255.255.255.252</option>
+						<option value="31">31 - 255.255.255.254</option>
+						<option value="32">32 - 255.255.255.255</option>
+					</select>
+				</div>
+				<div class="gen_btn">
+					<input type="button" value="Посчитать" id="result_btn">
+				</div>
+			</div>
+			<div id="parent"></div>
+		</div>
+	</div>
+	
+	<div class="bottom">
+		<div class="container">
+			<div class="copyright_ip" style="margin-top: 367px;">
+				© 2018 passcreate.ru - Онлайн генератор паролей
+			</div>
+		</div>
+	</div>
+	
+
+
+
+
+
+	<script src="libs/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+	<script src="js/ipcalc.js"></script>
+</body>
+</html>
