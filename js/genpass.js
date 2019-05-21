@@ -7,8 +7,16 @@ let passGenBtn = document.getElementById('result_btn');
 let password = document.getElementById('password');
 
 
-passGenBtn.addEventListener('click', genPass);
+passGenBtn.addEventListener('click', checkPass);
 
+function checkPass() {
+	if (/\D/.test(passlength.value) || passlength.value<4 || passlength.value>25) {
+		alert('Введите корректную длину пароля');
+		passlength.value = '';
+	} else {
+		genPass();
+	}
+};
 
 function genPass() {
 	let str = '';
@@ -27,12 +35,12 @@ function genPass() {
 	}
 
 	if (special.checked) {
-		str = str + '!@#$%^&*()-_+=;:,./?|`~[]{}';
+		str = str + '@#$%^&*()[]{}';
 	}
-
-	console.log(passlength.value);
 	
 	newStr = '';
+
+	passlength.value
 
 	for (var i = 0; i < passlength.value; i++) {
 		newStr = newStr + str.charAt(Math.floor(Math.random() * str.length));
