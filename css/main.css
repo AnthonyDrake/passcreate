@@ -38,22 +38,10 @@ body {
 	padding: 30px;
 }
 
-.logo {	
-	vertical-align: middle;	
-}
-
-.logo img {
-	display: inline-block;
-	width: 49%;
-	height:40%;
-	float: right;
-	margin: -40px 28px;
-}
-
 .name {
 	font-size: 100px;
 	font-family: "NautilusPompiliusRegular";
-	text-align: left;
+	text-align: center;
 	color: #303033;
 	margin: 10px 0 0 -81px;	
 }
